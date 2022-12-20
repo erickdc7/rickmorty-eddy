@@ -1,0 +1,128 @@
+.homeE {
+  position: relative;
+}
+
+.home__containerE {
+  position: relative;
+  padding: 3rem 0 2rem;
+}
+
+.home__titleE {
+  font-weight: var(--font-regular);
+  font-size: var(--h1-font-size);
+  margin-bottom: 1.25rem;
+}
+
+.home__buttonE {
+  display: inline-block;
+  background: var(--gradient-color);
+  padding: 1rem 2rem;
+  border-radius: 0.25rem;
+  color: var(--white-color);
+  font-weight: var(--font-medium);
+  transition: color 0.3s;
+}
+
+.home__formE {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.home__form-inputE {
+  padding: 1rem;
+  border-radius: 0.25rem;
+  border: 1px solid
+    linear-gradient(90deg, var(--first-color) 0%, var(--second-color) 100%);
+  outline: none;
+  width: 100%;
+}
+
+.home__buttonE:hover {
+  color: var(--text-color-light);
+}
+
+.home__episodesE {
+  row-gap: 1rem;
+}
+
+.home__episodeE {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  align-items: center;
+  background-color: var(--card-color);
+  border-radius: 0.25rem;
+}
+
+.home__episode-noE,
+.home__episode-dataE {
+  padding: 0.75rem;
+}
+
+.home__episode-noE h1 {
+  font-weight: var(--font-semi-bold);
+  font-size: var(--big-font-size);
+  margin-bottom: 0.125rem;
+}
+
+.home__episode-noE span {
+  font-weight: var(--font-light);
+  font-size: var(--smaller-font-size);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.home__episode-noE {
+  border-right: 0.5px solid hsla(0, 1%, 46%, 0.3);
+  text-align: center;
+}
+
+.home__episode-infoE {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 0.75rem;
+  font-weight: var(--font-light);
+}
+
+.home__episode-infoE span {
+  font-weight: var(--font-semi-bold);
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For small devices */
+@media screen and (max-width: 340px) {
+  .home__containerE.container {
+    margin-inline: 1rem;
+  }
+}
+
+/* For medium devices */
+@media screen and (min-width: 576px) {
+  .home__formE {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .home__form-inputE {
+    width: 350px;
+  }
+
+  .home__episodesE {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
+  }
+}
+
+/* For large devices */
+@media screen and (min-width: 1048px) {
+  .home__containerE.container {
+    margin-inline: 5rem;
+    max-width: initial;
+  }
+
+  .home__episodesE {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

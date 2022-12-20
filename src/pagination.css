@@ -1,0 +1,25 @@
+.container-button {
+  text-align: right;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: flex-end;
+  margin: 1.5rem 0;
+}
+
+.button-pagination {
+  padding: 0.75rem 1rem;
+  background: var(--text-color-light);
+  color: var(--body-color);
+  border-radius: 0.25rem;
+  transition: background 0.3s;
+}
+
+.button-pagination.disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.button-pagination:hover {
+  background: var(--text-color);
+}

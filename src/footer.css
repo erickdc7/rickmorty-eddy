@@ -1,0 +1,25 @@
+/*=============== FOOTER ===============*/
+.footer {
+  text-align: center;
+  font-size: var(--smaller-font-size);
+  color: var(--text-color-light);
+  margin: 2rem 0 1rem;
+}
+
+.footer__copy {
+  padding: 2rem 0;
+}
+
+/*=============== BREAKPOINTS ===============*/
+@media screen and (min-width: 767px) {
+  .footer {
+    position: relative;
+  }
+
+  .footer__copy {
+    position: absolute;
+    bottom: -2rem;
+    left: 0;
+    right: 0;
+  }
+}

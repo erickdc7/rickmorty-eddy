@@ -1,0 +1,37 @@
+/*=============== SCROLL UP ===============*/
+.scrollup {
+  position: fixed;
+  background-color: var(--card-color);
+  right: 1rem;
+  bottom: -30%;
+  display: inline-flex;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  z-index: var(--z-tooltip);
+  opacity: 0.8;
+  transition: 0.4s;
+  box-shadow: 0 4px 8px hsla(0, 1%, 46%, 0.5);
+}
+
+.scrollup__icon {
+  font-size: 1rem;
+  color: var(--text-color);
+}
+
+.scrollup:hover {
+  background-color: var(--card-color);
+  opacity: 1;
+}
+
+/* Show Scroll Up*/
+.show-scroll {
+  bottom: 3rem;
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (min-width: 1048px) {
+  .scrollup {
+    right: 3rem;
+  }
+}
