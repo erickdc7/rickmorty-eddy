@@ -12,8 +12,8 @@ const Error404 = () => {
             <section className='homeEr'>
                 <div className="home__containerEr container  ">
                     <h1 className="home__titleEr">Error 404</h1>
-                    <p className="home__descriptionEr">¿Te perdiste? 😕</p>
-                    <Link to="/" className="nav__linkEr">Regresar</Link>
+                    <p className="home__descriptionEr">Are you lost? 😕</p>
+                    <Link to="/" className="nav__linkEr">GO HOME</Link>
                 </div>
             </section>
         </>
