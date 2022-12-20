@@ -48,15 +48,15 @@ function App() {
 					<div className={`nav__menu ${showMenu} ${hiddenMenu}`} id="nav-menu">
 						<ul className="nav__list">
 							<li className="nav__item">
-								<Link to="/characters" className="nav__link">Characters</Link>
+								<Link to="/rickmorty-eddy/characters" className="nav__link">Characters</Link>
 							</li>
 
 							<li className="nav__item">
-								<Link to="/episodes" className="nav__link">Episodes</Link>
+								<Link to="/rickmorty-eddy/episodes" className="nav__link">Episodes</Link>
 							</li>
 
 							<li className="nav__item">
-								<Link to="/locations" className="nav__link">Locations</Link>
+								<Link to="/rickmorty-eddy/locations" className="nav__link">Locations</Link>
 							</li>
 						</ul>
 
@@ -74,10 +74,10 @@ function App() {
 			</header>
 			<Routes>
 				<Route path="/rickmorty-eddy" element={<Home />} />
-				<Route path="/characters" element={<Characters />} />
-				<Route path="/episodes" element={<Episodes />} />
-				<Route path="/locations" element={<Locations />} />
-				<Route path="*" element={<Error404 />} />
+				<Route path="/rickmorty-eddy/characters" element={<Characters />} />
+				<Route path="/rickmorty-eddy/episodes" element={<Episodes />} />
+				<Route path="/rickmorty-eddy/locations" element={<Locations />} />
+				<Route path="/rickmorty-eddy/*" element={<Error404 />} />
 			</Routes>
 		</div>
 	);
