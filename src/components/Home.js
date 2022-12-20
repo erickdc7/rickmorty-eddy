@@ -32,7 +32,7 @@ const Home = () => {
                             </p>
                             {/* <a href="#" className="home__button">EXPLORE</a> */}
                             {/* <button className="home__button">EXPLORE</button> */}
-                            <Link to="/characters" className="home__button">EXPLORE</Link>
+                            <Link to="/rickmorty-eddy/characters" className="home__button">EXPLORE</Link>
                             <p className="home__info">
                                 In this TV series you will find
                             </p>
