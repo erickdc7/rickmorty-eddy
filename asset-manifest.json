@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/rickmorty-eddy/static/css/main.72f09115.css",
-    "main.js": "/rickmorty-eddy/static/js/main.80c5fb10.js",
+    "main.js": "/rickmorty-eddy/static/js/main.9f4e237b.js",
     "static/media/rick-and-morty-image.jpg": "/rickmorty-eddy/static/media/rick-and-morty-image.030b698fb6b081522838.jpg",
     "index.html": "/rickmorty-eddy/index.html",
     "main.72f09115.css.map": "/rickmorty-eddy/static/css/main.72f09115.css.map",
-    "main.80c5fb10.js.map": "/rickmorty-eddy/static/js/main.80c5fb10.js.map"
+    "main.9f4e237b.js.map": "/rickmorty-eddy/static/js/main.9f4e237b.js.map"
   },
   "entrypoints": [
     "static/css/main.72f09115.css",
-    "static/js/main.80c5fb10.js"
+    "static/js/main.9f4e237b.js"
   ]
 }
