@@ -41,7 +41,7 @@ function App() {
 		<div>
 			<header className={`header ${headerShadow}`} id="header">
 				<nav className="nav container">
-					<Link to="/" className="nav__logo">
+					<Link to="/rickmorty-eddy" className="nav__logo">
 						Rick and Morty API
 					</Link>
 
@@ -73,7 +73,7 @@ function App() {
 				</nav>
 			</header>
 			<Routes>
-				<Route path="/" element={<Home />} />
+				<Route path="/rickmorty-eddy" element={<Home />} />
 				<Route path="/characters" element={<Characters />} />
 				<Route path="/episodes" element={<Episodes />} />
 				<Route path="/locations" element={<Locations />} />
