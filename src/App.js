@@ -77,7 +77,7 @@ function App() {
 				<Route path="/rickmorty-eddy/characters" element={<Characters />} />
 				<Route path="/rickmorty-eddy/episodes" element={<Episodes />} />
 				<Route path="/rickmorty-eddy/locations" element={<Locations />} />
-				<Route path="/rickmorty-eddy/error404" element={<Error404 />} />
+				<Route path="*" element={<Error404 />} />
 			</Routes>
 		</div>
 	);
