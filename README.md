@@ -24,4 +24,4 @@ This web page contains 5 sections: Index, Characters, Episodes, Locations and Er
 ![locations-section](locations-section.png)
 
 ### Error 404
-
+![error404-section](error404-section.png)
