@@ -12,16 +12,16 @@ This web page was made with the following technologies:
 This web page contains 5 sections: Index, Characters, Episodes, Locations and Error 404.
 
 ### Index
-![Index](index-section.png)
+![index-section](index-section.png)
 
 ### Characters
-![Index](characters-section.png)
+![characters-section](characters-section.png)
 
 ### Episodes
-![Index](episodes-section.png)
+![episodes-section](episodes-section.png)
 
 ### Locations
-![Index](locations-section.png)
+![locations-section](locations-section.png)
 
 ### Error 404
-![Index](error404-section.png)
+![error404-section](error404-section.png)
