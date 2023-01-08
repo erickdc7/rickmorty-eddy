@@ -18,13 +18,7 @@ const ScrollUp = () => {
     let scrollUpShow = scrollUp ? 'show-scroll' : '';
 
     /* ON CLICK -> TOP */
-    function scrollToTop() {
-        var currentScroll = document.documentElement.scrollTop || document.body.scrollTop;
-        if (currentScroll > 0) {
-            window.requestAnimationFrame(scrollToTop);
-            window.scrollTo(0, currentScroll - (currentScroll / 5));
-        }
-    }
+    const scrollToTop = () => window.scroll(0, 0);
 
     return (
         <button className={`scrollup ${scrollUpShow}`} id="scroll-up" onClick={scrollToTop}>

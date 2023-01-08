@@ -4,10 +4,12 @@ import '../pagination.css'
 const Pagination = ({ prev, next, onPrevious, onNext }) => {
     const handlePrevious = () => {
         onPrevious();
+        window.scroll(0, 0);
     }
 
     const handleNext = () => {
         onNext();
+        window.scroll(0, 0);
     }
 
     return (
